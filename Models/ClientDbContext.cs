@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace LeeAllenFarm_Trucking.Models
+namespace LeeAllenFarmAndTrucking.Models
 {
     public class ClientDbContext :
         IdentityDbContext<ClientInfo>

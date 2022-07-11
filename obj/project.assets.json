@@ -5920,9 +5920,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nrademann\\Desktop\\ASP\\LeeAllenFarm+Trucking\\LeeAllenFarm+Trucking.csproj",
-      "projectName": "LeeAllenFarm+Trucking",
-      "projectPath": "C:\\Users\\nrademann\\Desktop\\ASP\\LeeAllenFarm+Trucking\\LeeAllenFarm+Trucking.csproj",
+      "projectUniqueName": "C:\\Users\\nrademann\\Desktop\\ASP\\LeeAllenFarm+Trucking\\LeeAllenFarmAndTrucking.csproj",
+      "projectName": "LeeAllenFarmAndTrucking",
+      "projectPath": "C:\\Users\\nrademann\\Desktop\\ASP\\LeeAllenFarm+Trucking\\LeeAllenFarmAndTrucking.csproj",
       "packagesPath": "C:\\Users\\nrademann\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nrademann\\Desktop\\ASP\\LeeAllenFarm+Trucking\\obj\\",
       "projectStyle": "PackageReference",

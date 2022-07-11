@@ -1,4 +1,4 @@
-using LeeAllenFarm_Trucking.Models;
+using LeeAllenFarmAndTrucking.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +13,7 @@ namespace LeeAllenFarm_Trucking
         public void ConfigureServices(IServiceCollection services)
         {
             var connection =
-                @"Server=(localdb)\mssqllocaldb;Database=LeeAllenFarm_Trucking;
+                @"Server=(localdb)\mssqllocaldb;Database=LeeAllenFarmAndTrucking;
                     Trusted_Connection=True;";
             services.AddDbContext<ClientDbContext>
                 (options => options.UseSqlServer(connection));

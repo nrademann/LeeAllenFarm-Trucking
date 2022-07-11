@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace LeeAllenFarm_Trucking.Models
+namespace LeeAllenFarmAndTrucking.Models
 {
     public class ClientInfo : IdentityUser
     {
