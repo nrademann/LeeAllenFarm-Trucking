@@ -85,3 +85,4 @@ C:\Users\nrademann\Desktop\ASP\LeeAllenFarm+Trucking\bin\Debug\netcoreapp3.1\run
 C:\Users\nrademann\Desktop\ASP\LeeAllenFarm+Trucking\obj\Debug\netcoreapp3.1\LeeAllenFarmAndTrucking.Views.pdb
 C:\Users\nrademann\Desktop\ASP\LeeAllenFarm+Trucking\obj\Debug\netcoreapp3.1\LeeAllenFarmAndTrucking.csproj.CopyComplete
 C:\Users\nrademann\Desktop\ASP\LeeAllenFarm+Trucking\obj\Debug\netcoreapp3.1\LeeAllenFarmAndTrucking.genruntimeconfig.cache
+C:\Users\nrademann\Desktop\ASP\LeeAllenFarm+Trucking\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs

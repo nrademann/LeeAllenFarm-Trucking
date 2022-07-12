@@ -1,0 +1,19 @@
+﻿@model LeeAllenFarmAndTrucking.ViewModels.AccountLoginViewModel
+
+<h2>User Login</h2>
+<form asp-action ="Login" method="post">
+    <div asp-validation-summary="All"></div>
+    <label asp-for="Email"></label>
+    <input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+    <br />
+    <label asp-for="Password"></label>
+    <input asp-for="Passoword" />
+    <span asp-validation-for="Password"></span>
+    <br />
+    <label asp-for="ConfirmPassword"></label>
+    <input asp-for="ConfirmPassword" />
+    <span asp-validation-for="ConfirmPassword"></span>
+    <br />
+    <button type="submit"> Login</button>
+</form>
