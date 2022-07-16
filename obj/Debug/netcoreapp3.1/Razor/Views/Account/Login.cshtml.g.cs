@@ -22,7 +22,7 @@ using LeeAllenFarmAndTrucking;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"de0d571ec5c8df1503b81facd967d71915bf58b0", @"/Views/Account/Login.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"105d1ad537c07df5ccafa8d2b57c5468fb3b1e91", @"/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Views_Account_Login : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LeeAllenFarmAndTrucking.ViewModels.AccountLoginViewModel>
+    public class Views_Account_Login : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LeeAllenFarmAndTrucking.ViewModels.AccountLoginViewModels>
     #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Login", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -306,7 +306,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<LeeAllenFarmAndTrucking.ViewModels.AccountLoginViewModel> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<LeeAllenFarmAndTrucking.ViewModels.AccountLoginViewModels> Html { get; private set; } = default!;
         #nullable disable
     }
 }

@@ -11,7 +11,7 @@ namespace LeeAllenFarmAndTrucking.Controllers
         private ClientDbContext db;
         private UserManager<ClientInfo> userManager;
         private SignInManager<ClientInfo> signInManager;
-        private RoleManager<ClientInfo> roleManager;
+        private RoleManager<IdentityRole> roleManager;
         public AccountController(UserManager<ClientInfo> userManager,
             SignInManager<ClientInfo> signInManager,
             RoleManager<IdentityRole> roleManager,
@@ -19,7 +19,7 @@ namespace LeeAllenFarmAndTrucking.Controllers
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
- //           this.roleManager = roleManager;
+            this.roleManager = roleManager;
             this.db = db;
         }
         [Authorize]
