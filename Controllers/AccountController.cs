@@ -27,6 +27,28 @@ namespace LeeAllenFarmAndTrucking.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public async Task<IActionResult> Login(ClientLoginViewModel vm)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new ClientInfo {UserName = vm.Email,
+                    Email =vm.Email};
+                var result = await userManager.CreateAsync(user, vm.Password);
+                if (result.Succeeded)
+                {
+                    await signInManager.SignInAsync(user, false);
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    foreach(var error in result.Errors)
+                    {
+                        ModelState.AddModelError("",error.Description);
+
+                    }
+                }
     }
+            return View(vm);
 
 }
