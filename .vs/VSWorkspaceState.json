@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\Controllers",
+    "\\ViewModels",
+    "\\Views",
+    "\\Views\\Account",
+    "\\Views\\Home"
+  ],
+  "SelectedNode": "\\ViewModels\\ClientLoginViewModel.cs",
+  "PreviewInSolutionExplorer": false
+}

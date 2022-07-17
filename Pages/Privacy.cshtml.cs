@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LeeAllenFarm_Trucking.Pages
+namespace LeeAllenFarmAndTrucking.Pages
 {
     public class PrivacyModel : PageModel
     {

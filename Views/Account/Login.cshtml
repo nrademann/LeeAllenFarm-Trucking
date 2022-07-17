@@ -1,4 +1,4 @@
-﻿@model LeeAllenFarmAndTrucking.ViewModels.AccountLoginViewModels
+﻿@model LeeAllenFarmAndTrucking.ViewModels.ClientLoginViewModel
 
 <h2>User Login</h2>
 <form asp-action ="Login" method="post">
@@ -8,7 +8,7 @@
     <span asp-validation-for="Email"></span>
     <br />
     <label asp-for="Password"></label>
-    <input asp-for="Passoword" />
+    <input asp-for="Password" />
     <span asp-validation-for="Password"></span>
     <br />
     <label asp-for="ConfirmPassword"></label>

@@ -1,8 +1,11 @@
-﻿using LeeAllenFarmAndTrucking.Models;
+﻿using LeeAllenFarmAndTrucking.ViewModels;
+using LeeAllenFarmAndTrucking.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace LeeAllenFarmAndTrucking.Controllers
 {
@@ -22,11 +25,13 @@ namespace LeeAllenFarmAndTrucking.Controllers
             this.roleManager = roleManager;
             this.db = db;
         }
+
         [Authorize]
         public IActionResult Login()
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> Login(ClientLoginViewModel vm)
         {
@@ -45,10 +50,10 @@ namespace LeeAllenFarmAndTrucking.Controllers
                     foreach(var error in result.Errors)
                     {
                         ModelState.AddModelError("",error.Description);
-
                     }
                 }
-    }
-            return View(vm);
+            }
+            return View(vm);       
+        }
 
-}
+}}

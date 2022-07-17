@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace LeeAllenFarm_Trucking.Migrations
+namespace LeeAllenFarmAndTrucking.Migrations
 {
     [DbContext(typeof(ClientDbContext))]
     [Migration("20220711230604_M1")]

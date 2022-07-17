@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace LeeAllenFarm_Trucking.Migrations
+namespace LeeAllenFarmAndTrucking.Migrations
 {
     [DbContext(typeof(ClientDbContext))]
     partial class ClientDbContextModelSnapshot : ModelSnapshot

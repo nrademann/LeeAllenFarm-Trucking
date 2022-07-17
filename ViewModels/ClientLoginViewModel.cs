@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace LeeAllenFarm_Trucking.ViewModels
+namespace LeeAllenFarmAndTrucking.ViewModels
 {
     public class ClientLoginViewModel
     {

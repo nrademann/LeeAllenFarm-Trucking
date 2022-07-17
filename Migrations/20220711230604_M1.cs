@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace LeeAllenFarm_Trucking.Migrations
+namespace LeeAllenFarmAndTrucking.Migrations
 {
     public partial class M1 : Migration
     {
